@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AutoView"
-  s.version      = "0.0.2"
+  s.version      = "0.0.4"
   s.summary      = "AutoView"
 
   s.description  = %{ AutoView is iOS.  add doc}
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/yangjw/AutoView.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/yangjw/AutoView.git", :tag => "0.0.4" }
 
   s.source_files  = "AutoView/*"
 
