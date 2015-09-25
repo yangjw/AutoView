@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (AutoLayout)
+// init
 + (instancetype)autoLayoutView;
 + (void)updateLayoutForView:(UIView *)view;
 @end

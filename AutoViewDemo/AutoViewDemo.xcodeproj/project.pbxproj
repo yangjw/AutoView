@@ -14,8 +14,8 @@
 		210CCDA91BB4D61700457223 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210CCDA81BB4D61700457223 /* Images.xcassets */; };
 		210CCDAC1BB4D61700457223 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210CCDAA1BB4D61700457223 /* LaunchScreen.xib */; };
 		210CCDB81BB4D61700457223 /* AutoViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CCDB71BB4D61700457223 /* AutoViewDemoTests.m */; };
-		210CCDC61BB4E45400457223 /* NSLayoutConstraint+MultiItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CCDC31BB4E45400457223 /* NSLayoutConstraint+MultiItems.m */; };
-		210CCDC71BB4E45400457223 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CCDC51BB4E45400457223 /* UIView+AutoLayout.m */; };
+		210CCDE01BB4E70500457223 /* NSLayoutConstraint+MultiItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CCDDD1BB4E70500457223 /* NSLayoutConstraint+MultiItems.m */; };
+		210CCDE11BB4E70500457223 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CCDDF1BB4E70500457223 /* UIView+AutoLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +42,10 @@
 		210CCDB11BB4D61700457223 /* AutoViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		210CCDB61BB4D61700457223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		210CCDB71BB4D61700457223 /* AutoViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoViewDemoTests.m; sourceTree = "<group>"; };
-		210CCDC21BB4E45400457223 /* NSLayoutConstraint+MultiItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MultiItems.h"; sourceTree = "<group>"; };
-		210CCDC31BB4E45400457223 /* NSLayoutConstraint+MultiItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MultiItems.m"; sourceTree = "<group>"; };
-		210CCDC41BB4E45400457223 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
-		210CCDC51BB4E45400457223 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		210CCDDC1BB4E70500457223 /* NSLayoutConstraint+MultiItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MultiItems.h"; sourceTree = "<group>"; };
+		210CCDDD1BB4E70500457223 /* NSLayoutConstraint+MultiItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MultiItems.m"; sourceTree = "<group>"; };
+		210CCDDE1BB4E70500457223 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		210CCDDF1BB4E70500457223 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 		210CCD9A1BB4D61700457223 /* AutoViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				210CCDC11BB4E45400457223 /* AutoView */,
+				210CCDDB1BB4E70500457223 /* AutoView */,
 				210CCD9F1BB4D61700457223 /* AppDelegate.h */,
 				210CCDA01BB4D61700457223 /* AppDelegate.m */,
 				210CCDA21BB4D61700457223 /* ViewController.h */,
@@ -126,15 +126,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		210CCDC11BB4E45400457223 /* AutoView */ = {
+		210CCDDB1BB4E70500457223 /* AutoView */ = {
 			isa = PBXGroup;
 			children = (
-				210CCDC21BB4E45400457223 /* NSLayoutConstraint+MultiItems.h */,
-				210CCDC31BB4E45400457223 /* NSLayoutConstraint+MultiItems.m */,
-				210CCDC41BB4E45400457223 /* UIView+AutoLayout.h */,
-				210CCDC51BB4E45400457223 /* UIView+AutoLayout.m */,
+				210CCDDC1BB4E70500457223 /* NSLayoutConstraint+MultiItems.h */,
+				210CCDDD1BB4E70500457223 /* NSLayoutConstraint+MultiItems.m */,
+				210CCDDE1BB4E70500457223 /* UIView+AutoLayout.h */,
+				210CCDDF1BB4E70500457223 /* UIView+AutoLayout.m */,
 			);
-			path = AutoView;
+			name = AutoView;
+			path = ../../AutoView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,10 +238,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				210CCDC71BB4E45400457223 /* UIView+AutoLayout.m in Sources */,
+				210CCDE11BB4E70500457223 /* UIView+AutoLayout.m in Sources */,
 				210CCDA41BB4D61700457223 /* ViewController.m in Sources */,
 				210CCDA11BB4D61700457223 /* AppDelegate.m in Sources */,
-				210CCDC61BB4E45400457223 /* NSLayoutConstraint+MultiItems.m in Sources */,
+				210CCDE01BB4E70500457223 /* NSLayoutConstraint+MultiItems.m in Sources */,
 				210CCD9E1BB4D61700457223 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +439,7 @@
 				210CCDBD1BB4D61700457223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		210CCDBE1BB4D61700457223 /* Build configuration list for PBXNativeTarget "AutoViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +448,7 @@
 				210CCDC01BB4D61700457223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
